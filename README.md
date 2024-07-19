@@ -1,0 +1,2 @@
+# sqlbasico
+contenodp de sql
