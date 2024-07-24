@@ -1,1 +1,0 @@
-SELECT * FROM hellosql.users WHERE age IS NULL;
