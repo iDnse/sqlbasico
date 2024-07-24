@@ -1,4 +1,5 @@
--- consulta de los datos distintos de las colunna de una tabla.
+-- Muestra la columna age donde todos los datos sea distintos.
 SELECT DISTINCT AGE FROM hellosql.users;
--- si todos los datos de una colunna son distintos lo va traer a todos
+
+-- Muestra la columna name donde todos los datos sea distintos.
 SELECT DISTINCT name FROM hellosql.users;

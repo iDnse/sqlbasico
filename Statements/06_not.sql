@@ -1,0 +1,1 @@
+SELECT * FROM hellosql.users WHERE NOT email LIKE 'daniel%';
