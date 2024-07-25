@@ -1,35 +1,38 @@
-# Base de datos
-Dato --> Base de datos -->Informacion
- Una base de datos es un conjunto de datos estructurados, relacionados y guardados para su posterior uso.j
+# SQL:
 
+Es un lenguaje estándar para almacenar, manipular y recuperar datos en bases de datos.
 
-## SQL Basico
-Lenguaje de consulta estrucurada, lleva años en uso, con el tiempo se volvio el estandar.
-Inicialmente las bases de datos se hacia en ficheros, sencillo pero dificil de relazionarlos.
- -SQL esta estandariazada por una norma iso ISO/IEC 9075.
- -Base de datos, sistema que permite guardar datos.
- -Base de datos realacional, datos relacionados.
- -Base de datos donde hay datos y que usuarios van a poder usarla.
-Que tienen  la base de datos , muchas tablas con datos.
+* Significa lenguaje de consulta estructurado.
+* Le permite acceder y manipular bases de datos.
+* Se convirtió en un estándar del Instituto Nacional Estadounidense de Estándares (ANSI) en 1986 y de la Organización Internacional de Normalización (ISO) en 1987.
 
-## Tipos
+## Que podemos hacer con sql:
 
-1. Relacional
+* Puede ejecutar consultas contra una base de datos
+* Puede recuperar datos de una base de datos
+* Puede insertar registros en una base de datos
+* Puede actualizar registros en una base de datos
+* Puede eliminar registros de una base de datos
+* Puede crear nuevas bases de datos
+* Puede crear nuevas tablas en una base de datos
+* Puede crear procedimientos almacenados en una base de datos
+* Puede crear vistas en una base de datos
+* Puede establecer permisos en tablas, procedimientos y vistas
 
-2. No relacionales
+## SQL Estandar:
 
-## Base de datos relacionales
+Aunque SQL es un estándar ANSI/ISO, existen diferentes versiones del lenguaje SQL. Sin embargo, para cumplir con el estándar ANSI, todos admiten al menos los comandos principales (como SELECT, UPDATE, DELETE, INSERT, WHERE) de manera similar.
 
-* DBMS , sistema de manejo de base de datos, mysql, mariabb, oracle, sql server, postgres
+## Sistema de gestión de bases de datos relacionales (RDBMS):
 
-## Fundamentos
-- Entidad: objetos de base de datos, tangibles y entendible por nosotros.
-- Datos: representado de dos formas filas(registro) y columnas(atributos)
-- Cardinalidad: un registro tiene relacion con otro registro , 1:1,1:N,N:N.
+RDBMS significa sistema de gestión de bases de datos relacionales. Es la base de SQL y de todos los sistemas de bases de datos modernos como MS SQL Server, IBM DB2, Oracle, MySQL y Microsoft Access.
 
-## Relaciones de la base de datos
+Los datos en RDBMS se almacenan en objetos de base de datos denominados tablas. Una tabla es una colección de entradas de datos relacionadas y consta de columnas y filas.
 
-* 1 a 1
-* 1 a N
-* N A N
-* AUTO REFERENCE
+Cada tabla se divide en entidades más pequeñas llamadas campos. Un campo es una columna de una tabla que está diseñada para mantener información específica sobre cada registro de la tabla.
+
+Un registro, también llamado fila, es cada entrada individual que existe en una tabla. Un registro es una entidad horizontal en una tabla. Una columna es una entidad vertical en una tabla que contiene toda la información asociada con un campo específico en una tabla.
+
+## Sentencias SQL
+
+La mayoría de las acciones que necesita realizar en una base de datos se realizan con instrucciones SQL.Las declaraciones SQL constan de palabras clave que son fáciles de entender.
