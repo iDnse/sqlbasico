@@ -25,4 +25,11 @@ Que tienen  la base de datos , muchas tablas con datos.
 ## Fundamentos
 - Entidad: objetos de base de datos, tangibles y entendible por nosotros.
 - Datos: representado de dos formas filas(registro) y columnas(atributos)
-- Cardinalidad: un registro tiene relacion con otro registro , 1:1,1:N,N:N.jo
+- Cardinalidad: un registro tiene relacion con otro registro , 1:1,1:N,N:N.
+
+## Relaciones de la base de datos
+
+* 1 a 1
+* 1 a N
+* N A N
+* AUTO REFERENCE
