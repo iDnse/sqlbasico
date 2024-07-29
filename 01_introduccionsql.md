@@ -61,3 +61,18 @@ Algunos sistemas de bases de datos requieren un punto y coma al final de cada de
 *  DROP TABLE- elimina una tabla
 *  CREATE INDEX- crea un índice (clave de búsqueda)
 *  DROP INDEX- elimina un índice
+
+## Funciones agregadas de SQL
+Una función agregada es una función que realiza un cálculo en un conjunto de valores y devuelve un único valor.
+
+Las funciones de agregación se utilizan a menudo con la GROUP BY de la SELECT. La GROUP BY divide el conjunto de resultados en grupos de valores y la función de agregación se puede utilizar para devolver un único valor para cada grupo.
+
+Las funciones de agregación SQL más utilizadas son:
+
+MIN()- devuelve el valor más pequeño dentro de la columna seleccionada
+MAX()- devuelve el valor más grande dentro de la columna seleccionada
+COUNT()- devuelve el número de filas en un conjunto
+SUM()- devuelve la suma total de una columna numérica
+AVG()- devuelve el valor promedio de una columna numérica
+
+Las funciones agregadas ignoran los valores nulos (excepto COUNT()).

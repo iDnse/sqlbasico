@@ -1,1 +1,0 @@
-DROP TABLE persons2,persons6,persons7;
