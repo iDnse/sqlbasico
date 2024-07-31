@@ -1,0 +1,1 @@
+JOINcláusula se utiliza para combinar filas de dos o más tablas, según una columna relacionada entre ellas.

@@ -30,6 +30,12 @@ SELECT * FROM clientes AS personas;
 -- Puede parecer inútil utilizar alias en las tablas, 
 -- pero cuando se utilizan más de una tabla en las consultas, puede hacer que las instrucciones SQL sean más cortas
 
-SELECT o.OrderID, o.OrderDate, c.CustomerName
-FROM Customers AS c, Orders AS o
-WHERE c.CustomerName='Around the Horn' AND c.CustomerID=o.CustomerID;
+SELECT c.cliente_id, c.cliente_contacto, c.cliente_nombre
+FROM clientes AS c
+WHERE c.cliente_nombre='Pedro Garcia';
+
+/* Los alias pueden ser útiles cuando:
+Hay más de una tabla involucrada en una consulta
+Se utilizan funciones en la consulta.
+Los nombres de las columnas son grandes o no muy legibles
+Se combinan dos o más columnas */
