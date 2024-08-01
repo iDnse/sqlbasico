@@ -1,6 +1,6 @@
 -- tablas de Proveedores
 CREATE TABLE proveedores (
-  id_proveedor INT SERIAL NOT NULL PRIMARY KEY,
+  id_proveedor INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
   nombre_proveedor VARCHAR(30) NOT NULL,
   nombre_contacto VARCHAR(50) NOT NULL,
   direcccion VARCHAR(50) NOT NULL,
