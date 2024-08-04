@@ -1,0 +1,2 @@
+-- Funciones SQL IFNULL(), ISNULL(), COALESCE() y NVL()
+-- no tengo en mi tabla nulos s
