@@ -33,7 +33,7 @@ WHERE Country = 'Germany';
 
 SELECT * INTO newtable
 FROM oldtable
-WHERE 1 = 0;
+WHERE 1 = 0; 
 
 -- mysql
 CREATE TABLE newtable SELECT * FROM clientes

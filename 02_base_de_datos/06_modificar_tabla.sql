@@ -21,3 +21,11 @@ ALTER TABLE clientes
 DROP COLUMN Email;
 
 -- ALTER TABLE - RENAME COLUMN
+-- Para cambiar el nombre de una columna en una tabla, utilice la siguiente sintaxis:
+ALTER TABLE table_name
+RENAME COLUMN old_name to new_name;
+
+
+-- Para cambiar el tipo de datos de una columna en una tabla, utilice la siguiente sintaxis
+ALTER TABLE table_name
+MODIFY COLUMN column_name datatype;
