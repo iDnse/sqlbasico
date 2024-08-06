@@ -10,3 +10,11 @@ actualizar una tabla sin ellos (porque
 los índices también necesitan una actualización). 
 Por lo tanto, cree índices solo en columnas 
 en las que se realizarán búsquedas con frecuencia. */
+
+-- sintaxis
+ CREATE INDEX index_name
+ON table_name (column1, column2, ...);
+
+-- eliminar
+ALTER TABLE table_name
+DROP INDEX index_name;
